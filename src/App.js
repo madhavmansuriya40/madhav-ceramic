@@ -19,6 +19,9 @@ function App() {
                             Perfection Redesigned
                         </div>
                     </div>
+                    <div className="coming-soon">
+                        Coming Soon
+                    </div>
 				</div>
 			</div>
 		</div>

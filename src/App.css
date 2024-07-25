@@ -9,23 +9,27 @@
 
 .grid-container {
     position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .grid {
-    top: 10vh;
-    margin: 0 auto;
     position: absolute;
 }
 
 .grid-image {
+    top: 20vh;
     height: 92%;
     width: 92%;
 }
 
 .main-name-container {
     position: absolute;
-    top: 18%;
-    margin-left: 18vw;
+    top: 14%;
+    margin-left: 6vw;
 }
 
 .main-logo {
@@ -36,19 +40,27 @@
 .main-logo-name {
     margin-left: 8%;
     position: relative;
-    font-size: 10vh;
+    font-size: 6rem;
     font-weight: bold;
     background-image: linear-gradient(179.23deg, #B1B1B1 -41.85%, #444444 99.34%);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+    width: 1000px;
 }
 
 .main-logo-tagline {
     position: relative;
-    color: white;
-    margin-left: 32%;
-    font-size: 2.4vh;
+    color: #8c8c8c;
+    font-size: 1.4rem;
     letter-spacing: 4px;
+    margin-left: 27vw;
 }
 
+.coming-soon {
+    text-align: center;
+    color: #5f5f5f;
+    font-weight: 100;
+    letter-spacing: 0.8vw;
+    font-size: 1.4rem;
+}
